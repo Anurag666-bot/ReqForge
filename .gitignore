@@ -1,0 +1,67 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Packaging and build artifacts
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+.env
+.env.*
+.venv/
+venv/
+env/
+ENV/
+
+# IDE, editor, and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs and debug output
+logs/
+*.log
+profiler_output/
+
+# Local databases and generated artifacts
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite3-shm
+*.sqlite3-wal
+reqforge.db
+reqforge.sqlite
+output/
+reports/
+artifacts/
+tmp/
+*.tmp
+*.temp
+
+# Security / secrets
+*.pem
+*.key
+*.crt
+*.csr
+secrets/
+
+# Project-specific data files
+reconforge-export.json
+samples/
